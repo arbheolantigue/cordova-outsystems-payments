@@ -83,7 +83,7 @@
          <string>APPLE_PAY_MERCHANT_COUNTRY_CODE</string>
     </config-file>
 
-    <config-file target="*-Info.plist" parent="ApplePayPaymentAllowedNetworks">
+    <!--<config-file target="*-Info.plist" parent="ApplePayPaymentAllowedNetworks">
          <array>APPLE_PAY_PAYMENT_ALLOWED_NETWORKS</array>
     </config-file>
 
@@ -104,7 +104,7 @@
               <string>APPLE_PAY_BILLING_SUPPORTED_CONTACTS</string>
           </array>
     </config-file>
-
+-->
     <config-file target="*-Info.plist" parent="ApplePayPaymentGateway">
         <dict>
           <key>ApplePayPaymentGatewayName</key>
