@@ -87,11 +87,11 @@
          <array>APPLE_PAY_PAYMENT_ALLOWED_NETWORKS</array>
     </config-file>
 
-    <!--<config-file target="*-Info.plist" parent="ApplePayPaymentSupportedCapabilities">
+    <config-file target="*-Info.plist" parent="ApplePayPaymentSupportedCapabilities">
          <array>APPLE_PAY_PAYMENT_SUPPORTED_CAPABILITIES</array>
     </config-file>
 
-    <config-file target="*-Info.plist" parent="ApplePayPaymentSupportedCardCountries">
+    <!--<config-file target="*-Info.plist" parent="ApplePayPaymentSupportedCardCountries">
          <array>APPLE_PAY_PAYMENT_SUPPORTED_CARD_COUNTRIES</array>
     </config-file>
 
