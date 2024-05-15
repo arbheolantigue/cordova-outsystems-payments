@@ -101,9 +101,7 @@
 
     <config-file target="*-Info.plist" parent="ApplePayBillingSupportedContacts">
           <array>
-            <dict>
               <string>APPLE_PAY_BILLING_SUPPORTED_CONTACTS</string>
-            </dict>
           </array>
     </config-file>
 
