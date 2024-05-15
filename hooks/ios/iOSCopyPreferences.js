@@ -120,7 +120,7 @@ module.exports = function (context) {
     infoPlist['ApplePayPaymentSupportedCapabilities'] = payment_supported_capabilities;
     infoPlist['ApplePayPaymentSupportedCardCountries'] = payment_supported_card_countries;
     infoPlist['ApplePayShippingSupportedContacts'] = shipping_supported_contacts;
-    infoPlist['ApplePayBillingSupportedContacts'] = billing_supported_contacts;
+    //infoPlist['ApplePayBillingSupportedContacts'] = billing_supported_contacts;
     if (payment_gateway !== "") {
         infoPlist['ApplePayPaymentGateway']['ApplePayPaymentGatewayName'] = payment_gateway;    
 
