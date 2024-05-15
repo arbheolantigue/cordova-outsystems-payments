@@ -70,13 +70,13 @@ module.exports = function (context) {
                 error_list.push('Payment Allowed Networks');
             }
 
-            /*if (configItem.payment_supported_capabilities != null && configItem.payment_supported_capabilities.length > 0) {
+            if (configItem.payment_supported_capabilities != null && configItem.payment_supported_capabilities.length > 0) {
                 payment_supported_capabilities = configItem.payment_supported_capabilities;
             } else {
                 error_list.push('Payment Supported Capabilities');
             }
 
-            if(configItem.billing_supported_contacts != null && configItem.billing_supported_contacts.length > 0){
+            /*if(configItem.billing_supported_contacts != null && configItem.billing_supported_contacts.length > 0){
                 billing_supported_contacts = configItem.billing_supported_contacts;
             }
 
