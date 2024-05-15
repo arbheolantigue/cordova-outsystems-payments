@@ -64,13 +64,13 @@ module.exports = function (context) {
                 error_list.push('Merchant Country');
             }
 
-            /*if (configItem.payment_allowed_networks != null && configItem.payment_allowed_networks.length > 0) {
+            if (configItem.payment_allowed_networks != null && configItem.payment_allowed_networks.length > 0) {
                 payment_allowed_networks = configItem.payment_allowed_networks;
             } else {
                 error_list.push('Payment Allowed Networks');
             }
 
-            if (configItem.payment_supported_capabilities != null && configItem.payment_supported_capabilities.length > 0) {
+            /*if (configItem.payment_supported_capabilities != null && configItem.payment_supported_capabilities.length > 0) {
                 payment_supported_capabilities = configItem.payment_supported_capabilities;
             } else {
                 error_list.push('Payment Supported Capabilities');
