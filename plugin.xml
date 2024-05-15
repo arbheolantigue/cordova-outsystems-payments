@@ -100,7 +100,9 @@
     </config-file>
 
     <config-file target="*-Info.plist" parent="ApplePayBillingSupportedContacts">
-         <array>APPLE_PAY_BILLING_SUPPORTED_CONTACTS</array>
+          <array>
+            <string>APPLE_PAY_BILLING_SUPPORTED_CONTACTS</string>
+          </array>
     </config-file>
 
     <config-file target="*-Info.plist" parent="ApplePayPaymentGateway">
