@@ -77,7 +77,7 @@ module.exports = function (context) {
             }
 
             shipping_supported_contacts = configItem.shipping_supported_contacts;
-            billing_supported_contacts = configItem.billing_supported_contacts;
+            /*billing_supported_contacts = configItem.billing_supported_contacts;*/
             payment_supported_card_countries = configItem.payment_supported_card_countries;
 
             if (configItem.tokenization != null) {
