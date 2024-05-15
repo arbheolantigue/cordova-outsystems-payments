@@ -77,7 +77,7 @@ module.exports = function (context) {
             }
 
             shipping_supported_contacts = configItem.shipping_supported_contacts;
-            /*billing_supported_contacts = configItem.billing_supported_contacts;*/
+            billing_supported_contacts = configItem.billing_supported_contacts;
             payment_supported_card_countries = configItem.payment_supported_card_countries;
 
             if (configItem.tokenization != null) {
@@ -120,7 +120,7 @@ module.exports = function (context) {
     infoPlist['ApplePayPaymentSupportedCapabilities'] = payment_supported_capabilities;
     infoPlist['ApplePayPaymentSupportedCardCountries'] = payment_supported_card_countries;
     infoPlist['ApplePayShippingSupportedContacts'] = shipping_supported_contacts;
-    //infoPlist['ApplePayBillingSupportedContacts'] = billing_supported_contacts;
+    infoPlist['ApplePayBillingSupportedContacts'] = billing_supported_contacts;
     if (payment_gateway !== "") {
         infoPlist['ApplePayPaymentGateway']['ApplePayPaymentGatewayName'] = payment_gateway;    
 
