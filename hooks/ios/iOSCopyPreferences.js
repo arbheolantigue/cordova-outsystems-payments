@@ -76,6 +76,8 @@ module.exports = function (context) {
                 error_list.push('Payment Supported Capabilities');
             }
 
+            payment_supported_card_countries = configItem.payment_supported_card_countries;
+
             /*if(configItem.billing_supported_contacts != null && configItem.billing_supported_contacts.length > 0){
                 billing_supported_contacts = configItem.billing_supported_contacts;
             }
