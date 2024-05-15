@@ -64,7 +64,7 @@ module.exports = function (context) {
                 error_list.push('Merchant Country');
             }
 
-            if (configItem.payment_allowed_networks != null && configItem.payment_allowed_networks.length > 0) {
+            /*if (configItem.payment_allowed_networks != null && configItem.payment_allowed_networks.length > 0) {
                 payment_allowed_networks = configItem.payment_allowed_networks;
             } else {
                 error_list.push('Payment Allowed Networks');
@@ -83,7 +83,7 @@ module.exports = function (context) {
             shipping_supported_contacts = configItem.shipping_supported_contacts;
             //billing_supported_contacts = configItem.billing_supported_contacts;
             payment_supported_card_countries = configItem.payment_supported_card_countries;
-
+*/
             if (configItem.tokenization != null) {
                 if (configItem.tokenization.gateway != null && configItem.tokenization.gateway !== "") {
                     payment_gateway = configItem.tokenization.gateway;
