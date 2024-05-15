@@ -95,11 +95,11 @@
          <array>APPLE_PAY_PAYMENT_SUPPORTED_CARD_COUNTRIES</array>
     </config-file>
 
-   <!-- <config-file target="*-Info.plist" parent="ApplePayShippingSupportedContacts">
+   <config-file target="*-Info.plist" parent="ApplePayShippingSupportedContacts">
          <array>APPLE_PAY_SHIPPING_SUPPORTED_CONTACTS</array>
     </config-file>
 
-    <config-file target="*-Info.plist" parent="ApplePayBillingSupportedContacts">
+    <!-- <config-file target="*-Info.plist" parent="ApplePayBillingSupportedContacts">
           <array>
               <string>APPLE_PAY_BILLING_SUPPORTED_CONTACTS</string>
           </array>
