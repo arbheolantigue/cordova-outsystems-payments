@@ -76,8 +76,12 @@ module.exports = function (context) {
                 error_list.push('Payment Supported Capabilities');
             }
 
+            if(configItem.billing_supported_contacts && configItem.billing_supported_contacts.length > 0){
+                billing_supported_contacts = configItem.billing_supported_contacts;
+            }
+
             shipping_supported_contacts = configItem.shipping_supported_contacts;
-            billing_supported_contacts = configItem.billing_supported_contacts;
+            //billing_supported_contacts = configItem.billing_supported_contacts;
             payment_supported_card_countries = configItem.payment_supported_card_countries;
 
             if (configItem.tokenization != null) {
